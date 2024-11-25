@@ -1,0 +1,87 @@
+¨{ 
+    margin: 0;
+padding: 0;
+
+
+}
+ #menu{
+ margin: auto;
+width: 800px;
+font-family: Arial, Helvetica, sans-serif;
+position: fixed;
+left: 20%;
+
+ }
+
+ ul,ol {
+
+list-style: none;
+    
+}
+
+
+.nave>li a{
+
+float: left;
+
+
+}
+ .nave> li a{
+
+background-color: rgb(220, 245, 220);
+color: #000000;
+text-decoration: none;
+padding:  10px 12px;
+display: block;
+
+ }
+
+.nav li a:hover{
+
+background-color: blue;
+
+
+}
+.nav li ul{
+display: block;
+position: absolute;
+min-width: 140px;
+
+}
+
+.nav li :hover > ul{
+
+display: block;
+
+}
+
+.nav li ul li{
+
+position: relative;
+
+}
+
+.nav li ul li ul{
+
+right: 140px;
+ top: 0;
+
+}
+
+.nav li ul { 
+
+    visibility: hidden;
+     opacity: 0;
+    transition: opacity 0.3s ease;
+
+}
+
+.nav li: :hover  > ul {
+
+visibility: visible;
+opacity: 1;
+
+}
+
+
+

@@ -19,21 +19,42 @@ display: flex;
 body{
 
 
-background-image: url ("fondoo.jpg.jpg")
+background-image: url(fondoo.jpg.jpg) 
 
 }
  
 .titulo{
 
 font-size: 60px;
-color: black;
+color:red
 text-align: center;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 }
 
+.img1{
+  height: 193px;
+  width: 300px;
+  background-image: url("imag1.jpg");
+  background-repeat: no-repeat;
+  float: right;
+}
+.img2{
+  height: 500px;
+  width: 500px;
+  background-image: url("imag2.jpg");
+  background-repeat: no-repeat;
+  float: left;
+}
+.imgtec3{
+  height: 150px;
+  width: 200px;
+  background-image: url("imag3.jpg");
+  background-repeat: no-repeat;
+  float: right;
 
+}
 
 
 

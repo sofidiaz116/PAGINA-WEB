@@ -1,87 +1,63 @@
-¨{ 
+{
     margin: 0;
-padding: 0;
-
-
-}
- #menu{
- margin: auto;
-width: 800px;
-font-family: Arial, Helvetica, sans-serif;
-position: fixed;
-left: 20%;
-
- }
-
- ul,ol {
-
-list-style: none;
-    
+    padding: 0;
 }
 
-
-.nave>li a{
-
-float: left;
-
-
-}
- .nave> li a{
-
-background-color: rgb(220, 245, 220);
-color: #000000;
-text-decoration: none;
-padding:  10px 12px;
-display: block;
-
- }
-
-.nav li a:hover{
-
-background-color: blue;
-
-
-}
-.nav li ul{
-display: block;
-position: absolute;
-min-width: 140px;
-
+#menu{
+    margin: auto;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+   left:20%;
+     
 }
 
-.nav li :hover > ul{
-
-display: block;
-
+ul, ol {
+    list-style: none;
 }
 
-.nav li ul li{
-
-position: relative;
-
+.nav > li {
+    float: left;
 }
 
-.nav li ul li ul{
-
-right: 140px;
- top: 0;
-
+.nav li a {
+    background-color: #cf0d95;
+    color:black;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
 }
 
-.nav li ul { 
+.nav li a:hover {
+    background-color: #04efe3;
+}
 
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: -140px;
+    top: 0;
+}
+
+.nav li ul {
     visibility: hidden;
-     opacity: 0;
+    opacity: 0;
     transition: opacity 0.3s ease;
-
 }
 
-.nav li: :hover  > ul {
-
-visibility: visible;
-opacity: 1;
-
+.nav li:hover > ul {
+    visibility: visible;
+    opacity: 1;
 }
-
-
-

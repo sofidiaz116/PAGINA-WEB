@@ -5,7 +5,7 @@
   font-size: 40px;
 padding-top: 140px;
 text-align: justify;
-color: blueviolet;
+color:rgb(0, 0, 0);
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
@@ -19,7 +19,7 @@ display: flex;
 body{
 
 
-background-image: url(fondoo.jpg.jpg) 
+background-image: url(fhondo.jpg) 
 
 }
  
@@ -33,12 +33,15 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
-.img1{
-  height: 193px;
-  width: 300px;
+
+.imag1{
+  height: 500px;
+  width: 500px;
   background-image: url("imag1.jpg");
   background-repeat: no-repeat;
-  float: right;
+  float: left;
+}
+  
 }
 .img2{
   height: 500px;
@@ -55,7 +58,3 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   float: right;
 
 }
-
-
-
-
